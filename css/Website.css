@@ -20,14 +20,24 @@ body {
 
 }
 
-nav {
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: whitesmoke;
     width: 90%;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
     height: 100px;
     margin: auto;
-    /* background-color: whitesmoke; */
     display: flex;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 10px;
+    
+
 }
 
 
@@ -241,7 +251,8 @@ main {
     height: 100%;
     background:
         radial-gradient(circle at 85% 15%, rgba(179, 255, 198, 0.35), transparent 55%),
-        linear-gradient(160deg, var(--mint-bg) 0%, #DCEEDD 60%, #CFE7D2 100%);;
+        linear-gradient(160deg, var(--mint-bg) 0%, #DCEEDD 60%, #CFE7D2 100%);
+    ;
     border-radius: 20px;
     /* padding: 30px; */
     display: flex;
@@ -790,7 +801,7 @@ h1 {
 .social-icons a:hover {
     background: yellowgreen;
     color: #fff;
-    
+
 }
 
 .footer-bottom {
